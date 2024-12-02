@@ -9,6 +9,8 @@ def getDistances(file):
         left.append(int(current[0].strip()))
         right.append(int(current[1].strip()))
 
+    f.close()
+
     return left,right
         
 
